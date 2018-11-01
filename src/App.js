@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Main from './components/Main';
 import About from './components/About';
@@ -11,12 +12,12 @@ class App extends Component {
     return (
       <div>
       <Header/>
-      <BrowserRouter>      
+      <Router>      
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/about" component={About} />
         </Switch>          
-      </BrowserRouter>
+      </Router>
       <Footer/>
       </div>
     );
