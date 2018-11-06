@@ -104,6 +104,17 @@ const Main = () => {
             </p>        
           </div>        
         </div>
+        <div className="card col-lg-6 col-md-6 col-sm-12">
+        <a href="http://ecolog.zp.ua/" target="_blank">
+          <img src="img/Logo_ecolog_318x280.png" alt="Ecolog" className="card-img-top"/>
+        </a>
+        <div className="card-body">
+          <p className="card-text">
+            Действующий сайт ecolog.zp.ua
+            на этом сайте я выполнял только FRONT END
+          </p>        
+        </div>        
+      </div>
       </div>      
 
       </div>   
