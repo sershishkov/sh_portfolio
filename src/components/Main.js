@@ -9,7 +9,7 @@ const Main = () => {
           <h1>Добрый день!</h1>
           <p>Многие в  этой жизни в поиске зантия, которое будет по душе </p>
           <p> Имея уже некоторый жизненный опыт, я пришел к тому, что мне нравится писать код. 
-          На старте, в прошлом году, я прошел курсы FRONT END , но те знания дают лишь понимание куда идти, дальше я обучался по книгам и курсам. Самостоятельно учил курсы javaScript, REACT, Redux, NODE.js MongoDB. GIT использую во всех проектах</p>
+          На старте, в прошлом году, я прошел курсы FRONT END , но те знания дают лишь понимание куда идти, дальше я обучался по книгам и курсам UDEMY. Самостоятельно учил курсы javaScript, REACT, Redux, NODE.js MongoDB. GIT использую во всех проектах</p>
           <p>На данный момент ищу вакансию FRONT END , FULLSTACK со статусом JUNIOR</p>
           
         </div>
@@ -22,7 +22,7 @@ const Main = () => {
       
       <div className="row">
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://whispering-stream-57497.herokuapp.com/" target="_blank">
+          <a href="https://whispering-stream-57497.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/VideoIdeas.jpeg" alt="Video Ideas" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -33,7 +33,7 @@ const Main = () => {
         </div>
 
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sershishkov.github.io/sh_connect_manager/#/" target="_blank">
+          <a href="https://sershishkov.github.io/sh_connect_manager/#/" target="_blank" rel="noopener noreferrer">
             <img src="img/ContactManager.jpeg" alt="Contact Manager" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -46,7 +46,7 @@ const Main = () => {
 
       <div className="row">
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://gentle-bayou-84819.herokuapp.com/" target="_blank">
+          <a href="https://gentle-bayou-84819.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/DevConnector.jpeg" alt="Dev Connector" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -57,7 +57,7 @@ const Main = () => {
         </div>
 
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://lit-oasis-51851.herokuapp.com/" target="_blank">
+          <a href="https://lit-oasis-51851.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/StoryBooks.jpeg" alt="Story Books" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -70,7 +70,7 @@ const Main = () => {
 
       <div className="row">
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://secret-taiga-70992.herokuapp.com/" target="_blank">
+          <a href="https://secret-taiga-70992.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/BookShelf.jpeg" alt="Book shelf" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -82,7 +82,7 @@ const Main = () => {
           </div>        
         </div>
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sh-react-client-panel.firebaseapp.com/" target="_blank">
+          <a href="https://sh-react-client-panel.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/ClientPanel.jpeg" alt="Client Panel" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -95,7 +95,7 @@ const Main = () => {
 
       <div className="row">
           <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sh-nba-full.firebaseapp.com/" target="_blank">
+          <a href="https://sh-nba-full.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/NBA.jpeg" alt="NBA" className="card-img-top"/>
           </a>
           <div className="card-body">
@@ -105,7 +105,7 @@ const Main = () => {
           </div>        
         </div>
         <div className="card col-lg-6 col-md-6 col-sm-12">
-        <a href="http://ecolog.zp.ua/" target="_blank">
+        <a href="http://ecolog.zp.ua/" target="_blank" rel="noopener noreferrer">
           <img src="img/Logo_ecolog_318x280.png" alt="Ecolog" className="card-img-top"/>
         </a>
         <div className="card-body">

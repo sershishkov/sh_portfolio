@@ -16,13 +16,13 @@ const Header = () => {
             <h6>email: ser.shishkov@gmail.com</h6>
             <h6>Skype: ser.shishkov</h6>
             <div className="header_info_links">
-              <a href="https://www.facebook.com/ser.shishkov" target="_blank">
+              <a href="https://www.facebook.com/ser.shishkov" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-square" style={{color:"green",fontSize:"2rem"}}></i>
               </a>
-              <a href="https://github.com/sershishkov/" target="_blank">
+              <a href="https://github.com/sershishkov/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github-square" style={{color:"green",fontSize:"2rem"}}></i>
               </a>
-              <a href="https://www.linkedin.com/in/сергей-шишков-902800100/" target="_blank">
+              <a href="https://www.linkedin.com/in/сергей-шишков-902800100/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin" style={{color:"green",fontSize:"2rem"}}></i>
               </a>
             </div>            

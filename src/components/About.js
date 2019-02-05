@@ -41,7 +41,7 @@ const About = () => {
               <td>Портфолио:</td>
               <td>
                 <h5>
-                  <a href="https://sershishkov.github.io/sh_portfolio" target="_blank">
+                  <a href="https://sershishkov.github.io/sh_portfolio" target="_blank" rel="noopener noreferrer">
                     Моё портфолио
                   </a>
                 </h5>
@@ -124,7 +124,7 @@ const About = () => {
               <td>Навыки</td>
               <td>
                 <p>
-                  HTML, CSS, SCSS, javaScript, Node.js, MongoDB, React, Redux, Bootstrap, Materialize, Photoshop, GIT
+                  HTML, CSS, SCSS, javaScript, Node.js, MongoDB, React, Redux, Bootstrap, Material UI, Photoshop, GIT
                </p>
               </td>
             </tr>
