@@ -70,14 +70,12 @@ const Main = () => {
 
       <div className="row">
         <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://secret-taiga-70992.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://radiant-retreat-46400.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="img/BookShelf.jpeg" alt="Book shelf" className="card-img-top"/>
           </a>
           <div className="card-body">
             <p className="card-text">
-              Любимая книжная полка
-              login:visitor@gmail.com 
-              password:123456789
+              Приложение для создания тренировок              
             </p>        
           </div>        
         </div>
