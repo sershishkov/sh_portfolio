@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import imgFitness from '../img/Fitness.jpeg';
+import imgDevConnector from '../img/DevConnector.jpeg';
+import imgClientPanel from '../img/ClientPanel.jpeg';
+import imgStoryBooks from '../img/StoryBooks.jpeg';
+
+import '../style/main.scss';
 
 const Main = () => {
   return (
@@ -21,33 +27,22 @@ const Main = () => {
       <div className="container">
       
       <div className="row">
-        <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://whispering-stream-57497.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src="img/VideoIdeas.jpeg" alt="Video Ideas" className="card-img-top"/>
+      
+      <div className="card col-lg-6 col-md-6 col-sm-12">
+          <a href="https://radiant-retreat-46400.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <img src={imgFitness} alt="Book shelf" className="card-img-top"/>
           </a>
           <div className="card-body">
             <p className="card-text">
-              Сборник видео Идей
+              Приложение для создания тренировок              
             </p>        
           </div>        
         </div>
+        
 
-        <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sershishkov.github.io/sh_connect_manager/#/" target="_blank" rel="noopener noreferrer">
-            <img src="img/ContactManager.jpeg" alt="Contact Manager" className="card-img-top"/>
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              Простая записная книга
-            </p>        
-          </div>        
-        </div>
-      </div>
-
-      <div className="row">
         <div className="card col-lg-6 col-md-6 col-sm-12">
           <a href="https://gentle-bayou-84819.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src="img/DevConnector.jpeg" alt="Dev Connector" className="card-img-top"/>
+            <img src={imgDevConnector} alt="Dev Connector" className="card-img-top"/>
           </a>
           <div className="card-body">
             <p className="card-text">
@@ -56,9 +51,26 @@ const Main = () => {
           </div>        
         </div>
 
+        
+      </div>
+
+      <div className="row">
+
+      <div className="card col-lg-6 col-md-6 col-sm-12">
+          <a href="https://sh-react-client-panel.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+            <img src={imgClientPanel} alt="Client Panel" className="card-img-top"/>
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              Учет клиентов и баланс по ним
+            </p>        
+          </div>        
+        </div>     
+        
+
         <div className="card col-lg-6 col-md-6 col-sm-12">
           <a href="https://lit-oasis-51851.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src="img/StoryBooks.jpeg" alt="Story Books" className="card-img-top"/>
+            <img src={imgStoryBooks} alt="Story Books" className="card-img-top"/>
           </a>
           <div className="card-body">
             <p className="card-text">
@@ -69,51 +81,12 @@ const Main = () => {
       </div>
 
       <div className="row">
-        <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://radiant-retreat-46400.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src="img/BookShelf.jpeg" alt="Book shelf" className="card-img-top"/>
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              Приложение для создания тренировок              
-            </p>        
-          </div>        
-        </div>
-        <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sh-react-client-panel.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src="img/ClientPanel.jpeg" alt="Client Panel" className="card-img-top"/>
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              Учет клиентов и баланс по ним
-            </p>        
-          </div>        
-        </div>
+       
+        
+
       </div>
 
-      <div className="row">
-          <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sh-nba-full.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src="img/NBA.jpeg" alt="NBA" className="card-img-top"/>
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              Список команд NBA
-            </p>        
-          </div>        
-        </div>
-        <div className="card col-lg-6 col-md-6 col-sm-12">
-        <a href="http://ecolog.zp.ua/" target="_blank" rel="noopener noreferrer">
-          <img src="img/Logo_ecolog_318x280.png" alt="Ecolog" className="card-img-top"/>
-        </a>
-        <div className="card-body">
-          <p className="card-text">
-            Действующий сайт ecolog.zp.ua
-            на этом сайте я выполнял только FRONT END
-          </p>        
-        </div>        
-      </div>
-      </div>      
+          
 
       </div>   
       

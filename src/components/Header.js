@@ -1,4 +1,6 @@
 import React from 'react';
+import myAvatar from '../img/avatar04_17.jpg';
+import '../style/main.scss';
 
 
 const Header = () => {
@@ -7,7 +9,7 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="header_photo col-lg-4 col-md-6 col-sm-12">
-            <img src="img/avatar04_17.jpg" alt=""/>
+            <img src={myAvatar} alt="myAvatar"/>
             <h4 > FrontEND FullStack Junior </h4>
           </div>
           <div className="header_info  col-lg-8 col-md-6 col-sm-12"> 
