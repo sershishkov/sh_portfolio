@@ -4,7 +4,7 @@ import imgFitness from '../img/Fitness.jpeg';
 import imgDevConnector from '../img/DevConnector.jpeg';
 import imgClientPanel from '../img/ClientPanel.jpeg';
 import imgStoryBooks from '../img/StoryBooks.jpeg';
-
+import imgBurger from '../img/burger_sandwich.png'
 import '../style/main.scss';
 
 const Main = () => {
@@ -78,9 +78,22 @@ const Main = () => {
             </p>        
           </div>        
         </div>
+
+
       </div>
 
       <div className="row">
+
+      <div className="card col-lg-6 col-md-6 col-sm-12">
+          <a href="https://sh-burger.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+            <img src={imgBurger} alt="Burger" className="card-img-top"/>
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              Burger 
+            </p>        
+          </div>        
+        </div>
        
         
 
