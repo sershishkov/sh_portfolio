@@ -10,10 +10,10 @@ const Header = () => {
         <div className="row">
           <div className="header_photo col-lg-4 col-md-6 col-sm-12">
             <img src={myAvatar} alt="myAvatar"/>
-            <h4 > FrontEND FullStack Junior </h4>
+            <h4 > Front END FullStack Junior </h4>
           </div>
           <div className="header_info  col-lg-8 col-md-6 col-sm-12"> 
-            <h2>Шишков Сергей</h2>           
+            <h2>Shyshkov Sergey</h2>           
             <h6>phone: +380 (50) 2279650 <i className="fab fa-viber" style={{color:"green"}}></i> <i className="fab fa-whatsapp-square" style={{color:"green"}}></i></h6>
             <h6>email: ser.shishkov@gmail.com</h6>
             <h6>Skype: ser.shishkov</h6>

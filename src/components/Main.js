@@ -5,6 +5,7 @@ import imgDevConnector from '../img/DevConnector.jpeg';
 import imgClientPanel from '../img/ClientPanel.jpeg';
 import imgStoryBooks from '../img/StoryBooks.jpeg';
 import imgBurger from '../img/burger_sandwich.png'
+import imgHome from '../img/home_for_scss_grid.jpeg'
 import '../style/main.scss';
 
 const Main = () => {
@@ -12,18 +13,17 @@ const Main = () => {
     <div className="main">
       <div className="container">
         <div className="description">
-          <h1>Добрый день!</h1>
-          <p>Многие в  этой жизни в поиске зантия, которое будет по душе </p>
-          <p> Имея уже некоторый жизненный опыт, я пришел к тому, что мне нравится писать код. 
-          На старте, в прошлом году, я прошел курсы FRONT END , но те знания дают лишь понимание куда идти, дальше я обучался по книгам и курсам UDEMY. Самостоятельно учил курсы javaScript, REACT, Redux, NODE.js MongoDB. GIT использую во всех проектах</p>
-          <p>На данный момент ищу вакансию FRONT END , FULLSTACK со статусом JUNIOR</p>
+          <h1>Hello dear guest!</h1>
+          <p> Many in this life in search of work, which will delight.</p>
+          <p> I completed the FRONT END courses, but that knowledge only gives an understanding of where to go, I studied further on books and UDEMY courses. Independently taught courses REACT, Redux, javaScript,  NODE.js MongoDB, Git, Material UI, Bootsrap </p>
+          <p>At the moment I am looking for a job FRONT END, FULLSTACK with a level of JUNIOR</p>
           
         </div>
         <h4>
-           <Link to='/about' className="text-info my-nav" > Моё резюме </Link>
+           <Link to='/about' className="text-info my-nav" > My CV </Link>
          </h4>
       </div>
-      <h2>Примеры моих работ:</h2>
+      <h2>My porfolio:</h2>
       <div className="container">
       
       <div className="row">
@@ -34,7 +34,7 @@ const Main = () => {
           </a>
           <div className="card-body">
             <p className="card-text">
-              Приложение для создания тренировок              
+              "Creator of trainigs" - REACT, Redux, javaScript,  NODE.js MongoDB, Git, Material UI             
             </p>        
           </div>        
         </div>
@@ -46,7 +46,7 @@ const Main = () => {
           </a>
           <div className="card-body">
             <p className="card-text">
-              Площадка для девелоперов с возможностью комментирования постов 
+              "Development place" REACT, Redux, javaScript,  NODE.js MongoDB, Git, Bootsrap
             </p>        
           </div>        
         </div>
@@ -54,6 +54,35 @@ const Main = () => {
         
       </div>
 
+      
+
+      <div className="row">
+
+      <div className="card col-lg-6 col-md-6 col-sm-12">
+          <a href="https://sh-burger.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+            <img src={imgBurger} alt="Burger" className="card-img-top"/>
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              "Burger"  REACT, Redux, javaScript,  NODE.js, Firebase, Git, 
+            </p>        
+          </div>        
+        </div>
+
+        
+        <div className="card col-lg-6 col-md-6 col-sm-12">
+          <a href="https://sershishkov.github.io/sh_scss_in_react/" target="_blank" rel="noopener noreferrer">
+            <img src={imgHome} alt="SCSS GRID" className="card-img-top"/>
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              "Travelling" REACT SCSS GRID
+            </p>        
+          </div>        
+        </div>
+        
+
+      </div>
       <div className="row">
 
       <div className="card col-lg-6 col-md-6 col-sm-12">
@@ -62,7 +91,7 @@ const Main = () => {
           </a>
           <div className="card-body">
             <p className="card-text">
-              Учет клиентов и баланс по ним
+              "My clients" REACT, javaScript, Git, Bootsrap, firebase 
             </p>        
           </div>        
         </div>     
@@ -74,28 +103,11 @@ const Main = () => {
           </a>
           <div className="card-body">
             <p className="card-text">
-              Хранилище любимых книг 
+              "Book store" googleAuth, javaScript,  NODE.js, MongoDB, handlebars
             </p>        
           </div>        
         </div>
 
-
-      </div>
-
-      <div className="row">
-
-      <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sh-burger.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
-            <img src={imgBurger} alt="Burger" className="card-img-top"/>
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              Burger 
-            </p>        
-          </div>        
-        </div>
-       
-        
 
       </div>
 
