@@ -86,12 +86,12 @@ const Main = () => {
       <div className="row">
 
       <div className="card col-lg-6 col-md-6 col-sm-12">
-          <a href="https://sh-react-client-panel.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://guarded-coast-87223.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <img src={imgClientPanel} alt="Client Panel" className="card-img-top"/>
           </a>
           <div className="card-body">
             <p className="card-text">
-              "My clients" REACT, javaScript, Git, Bootsrap, firebase 
+              "To do list " REACT, javaScript, Git, Bootsrap, 
             </p>        
           </div>        
         </div>     
