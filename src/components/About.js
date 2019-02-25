@@ -35,6 +35,15 @@ const About = () => {
             </tr>
 
             <tr>
+              <td>Soft skills</td>
+              <td>
+                <p>
+                React, Redux, javaScript, Node.js, MongoDB, HTML,CSS, SCSS,  Bootstrap, Material UI, Photoshop, GIT
+               </p>
+              </td>
+            </tr>
+
+            <tr>
               <td><h5>Employment</h5></td>
               <td><h5>Full time</h5></td>
             </tr>
@@ -123,14 +132,7 @@ const About = () => {
                 
               </td>
             </tr>
-            <tr>
-              <td>Soft skills</td>
-              <td>
-                <p>
-                React, Redux, javaScript, Node.js, MongoDB, HTML,CSS, SCSS,  Bootstrap, Material UI, Photoshop, GIT
-               </p>
-              </td>
-            </tr>
+            
           
           </tbody>
         </table>
