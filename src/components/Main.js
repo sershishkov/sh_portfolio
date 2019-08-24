@@ -55,7 +55,7 @@ const Main = () => {
 
           <div className='card col-lg-6 col-md-6 col-sm-12'>
             <a
-              href='https://gentle-bayou-84819.herokuapp.com/'
+              href='https://agile-mesa-43384.herokuapp.com'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -67,8 +67,8 @@ const Main = () => {
             </a>
             <div className='card-body'>
               <p className='card-text'>
-                "Development place" REACT, Redux, javaScript, NODE.js MongoDB,
-                Git, Bootsrap
+                "Development place" REACT, React HOOKS, Redux, javaScript,
+                NODE.js MongoDB, Git,
               </p>
             </div>
           </div>
