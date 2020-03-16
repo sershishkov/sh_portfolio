@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imgFitness from '../img/Fitness.jpeg';
-import imgDevConnector from '../img/DevConnector.jpeg';
-import imgClientPanel from '../img/ClientPanel.jpeg';
-import imgStoryBooks from '../img/StoryBooks.jpeg';
+import imgCraftsmen from '../img/craftsmen-3094035.jpg';
 import imgBurger from '../img/burger_sandwich.png';
 import imgHome from '../img/home_for_scss_grid.jpeg';
 import '../style/main.scss';
@@ -37,38 +34,22 @@ const Main = () => {
       <h2>My portfolio:</h2>
       <div className='container'>
         <div className='row'>
-          <div className='card col-lg-6 col-md-6 col-sm-12'>
+          <div className='card  col-sm-12'>
             <a
-              href='https://radiant-retreat-46400.herokuapp.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <img src={imgFitness} alt='Book shelf' className='card-img-top' />
-            </a>
-            <div className='card-body'>
-              <p className='card-text'>
-                "Creator of trainigs" - REACT, Redux, javaScript, NODE.js
-                MongoDB, Git, Material UI
-              </p>
-            </div>
-          </div>
-
-          <div className='card col-lg-6 col-md-6 col-sm-12'>
-            <a
-              href='https://agile-mesa-43384.herokuapp.com'
+              href='https://https://sh-olimp-crm.herokuapp.com/'
               target='_blank'
               rel='noopener noreferrer'
             >
               <img
-                src={imgDevConnector}
-                alt='Dev Connector'
+                src={imgCraftsmen}
+                alt='olimp-srm'
                 className='card-img-top'
               />
             </a>
             <div className='card-body'>
               <p className='card-text'>
-                "Development place" REACT, React HOOKS, Redux, javaScript,
-                NODE.js MongoDB, Git,
+                "Work with OSBB" REACT, React HOOKS, Redux,Material-UI,
+                javaScript, NODE.js, MongoDB, Git, Heroku,
               </p>
             </div>
           </div>
@@ -100,46 +81,6 @@ const Main = () => {
             </a>
             <div className='card-body'>
               <p className='card-text'>"Travelling" REACT SCSS GRID</p>
-            </div>
-          </div>
-        </div>
-        <div className='row'>
-          <div className='card col-lg-6 col-md-6 col-sm-12'>
-            <a
-              href='https://guarded-coast-87223.herokuapp.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <img
-                src={imgClientPanel}
-                alt='Client Panel'
-                className='card-img-top'
-              />
-            </a>
-            <div className='card-body'>
-              <p className='card-text'>
-                "To do list " REACT, javaScript, Git, Bootsrap,
-              </p>
-            </div>
-          </div>
-
-          <div className='card col-lg-6 col-md-6 col-sm-12'>
-            <a
-              href='https://lit-oasis-51851.herokuapp.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <img
-                src={imgStoryBooks}
-                alt='Story Books'
-                className='card-img-top'
-              />
-            </a>
-            <div className='card-body'>
-              <p className='card-text'>
-                "Book store" googleAuth, javaScript, NODE.js, MongoDB,
-                handlebars
-              </p>
             </div>
           </div>
         </div>
