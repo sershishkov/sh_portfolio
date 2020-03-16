@@ -36,7 +36,7 @@ const Main = () => {
         <div className='row'>
           <div className='card  col-sm-12'>
             <a
-              href='https://https://sh-olimp-crm.herokuapp.com/'
+              href='https://sh-olimp-crm.herokuapp.com/'
               target='_blank'
               rel='noopener noreferrer'
             >
