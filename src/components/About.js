@@ -5,54 +5,80 @@ import '../style/main.scss';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className='about'>
       <h4>
-        <Link to='/' className="text-info my-nav" > Back</Link>
+        <Link to='/' className='text-info my-nav'>
+          {' '}
+          Back
+        </Link>
       </h4>
-      <div className="container">
+      <div className='container'>
         <table>
           <tbody>
             <tr>
-              <td><h5>Residence:</h5></td>
               <td>
-                <h5>Ukraine, Zaporozhye</h5>               
+                <h5>Residence:</h5>
+              </td>
+              <td>
+                <h5>Ukraine, Zaporozhye</h5>
               </td>
             </tr>
 
             <tr>
-              <td><h5> Citizenship:</h5></td>
-              <td><h5> Ukraine, </h5></td>
+              <td>
+                <h5> Citizenship:</h5>
+              </td>
+              <td>
+                <h5> Ukraine, </h5>
+              </td>
             </tr>
 
             <tr>
-              <td><h5>Relocation:</h5></td>
-              <td><h5>Ready for business trips</h5></td>
+              <td>
+                <h5>Relocation:</h5>
+              </td>
+              <td>
+                <h5>Ready for business trips</h5>
+              </td>
             </tr>
 
             <tr>
-              <td><h5>Objective</h5></td>
-              <td><h5>Front End FullStack developer JUNIOR</h5></td>
+              <td>
+                <h5>Objective</h5>
+              </td>
+              <td>
+                <h5>Front End FullStack developer JUNIOR</h5>
+              </td>
             </tr>
 
             <tr>
               <td>Soft skills</td>
               <td>
                 <p>
-                React, Redux, javaScript, Node.js, MongoDB, HTML,CSS, SCSS,  Bootstrap, Material UI, Photoshop, GIT
-               </p>
+                  React, Redux, javaScript, Node.js, MongoDB, HTML,CSS, SCSS,
+                  Bootstrap, Material UI, Photoshop, GIT
+                </p>
               </td>
             </tr>
 
             <tr>
-              <td><h5>Employment</h5></td>
-              <td><h5>Full time</h5></td>
+              <td>
+                <h5>Employment</h5>
+              </td>
+              <td>
+                <h5>Full time</h5>
+              </td>
             </tr>
 
             <tr>
               <td>Portfolio:</td>
               <td>
                 <h5>
-                  <a href="https://sershishkov.github.io/sh_portfolio" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href='https://sershishkov.github.io/sh_portfolio'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     My portfolio
                   </a>
                 </h5>
@@ -66,10 +92,10 @@ const About = () => {
             <tr>
               <td>June 2018 — now</td>
               <td>
-                <h5>Private entrepreneur</h5>
+                <h5>Manager in private company</h5>
                 <h6>Ukraine, Zaporozhye</h6>
-                <h5>Web developer</h5>
-                <p>Web development</p>
+                <h5>Calculation of estimates</h5>
+                <p>Repair and construction</p>
               </td>
             </tr>
 
@@ -79,7 +105,12 @@ const About = () => {
                 <h5>Private entrepreneur</h5>
                 <h6>Ukraine, Zaporozhye</h6>
                 <h5>Realtor</h5>
-                <p>Selection of real estate. Work with owners and buyers. Conducting transactions. Preparation of documents for the transaction. Selection of alternatives. Work with objections. Cold calls. Training company employees.</p>
+                <p>
+                  Selection of real estate. Work with owners and buyers.
+                  Conducting transactions. Preparation of documents for the
+                  transaction. Selection of alternatives. Work with objections.
+                  Cold calls. Training company employees.
+                </p>
               </td>
             </tr>
 
@@ -89,9 +120,13 @@ const About = () => {
                 <h5>OGRK-centre</h5>
                 <h6>Moscow, www.ogrk-center.ru</h6>
                 <h5>Realtor</h5>
-                <p>Selection of real estate. Work with owners and buyers. Conducting transactions. Mortgage. Selection of alternatives. Work with objections. Cold calls.
-                 For the year of work, I received the status of "Silver Realtor", 6th place in the                   rating of employees of the company for 2015.
-                  </p>
+                <p>
+                  Selection of real estate. Work with owners and buyers.
+                  Conducting transactions. Mortgage. Selection of alternatives.
+                  Work with objections. Cold calls.                  For the
+                  year of work, I received the status of "Silver Realtor", 6th
+                  place in the rating of employees of the company for 2015.
+                </p>
               </td>
             </tr>
 
@@ -101,7 +136,11 @@ const About = () => {
                 <h5>Private entrepreneur</h5>
                 <h6>Украина</h6>
                 <h5>Self-employed</h5>
-                <p>Purchase and sale of metal doors wholesale and retail, transport logistics, organization of warehousing and accounting. Storage and transportation of grain. </p>
+                <p>
+                  Purchase and sale of metal doors wholesale and retail,
+                  transport logistics, organization of warehousing and
+                  accounting. Storage and transportation of grain.{' '}
+                </p>
               </td>
             </tr>
 
@@ -126,14 +165,10 @@ const About = () => {
             <tr>
               <td>Language skills:</td>
               <td>
-              <h6>Russian ­ native</h6>
-              <h6>English intermediate(B1)</h6>
-              
-                
+                <h6>Russian ­ native</h6>
+                <h6>English intermediate(B1)</h6>
               </td>
             </tr>
-            
-          
           </tbody>
         </table>
       </div>
